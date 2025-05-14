@@ -10,29 +10,56 @@
         <meta http-equiv="Content-Language" content="es">
        <title>Tienda de Productos</title>
         <style>
-            li{
+            .navegacion li{
                 display: inline;
                 padding: 10px;
             }
         </style>
     </head>
     <body>
-        <header>
+        <header style="text-align: center;" class="navegacion">
             <h2>TIENDA</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes_somos.html">Quienes somos</a></li>
+                    <li><a href="contacto.html">Contacte con nosotros</a></li>
+                    <li><a href="blog.html">Nuestro Blog</a></li>
+                </ul>
+            </nav>
         </header>
-        Ordenadores
-        frigoríficos
-        libros de cocina
-        monitores
-        novelas
-        impresoras
-        cómics
-        tablets
-        microondas
-        tostadoras
-        televisores
-        freidoras
+        <aside>
+            <ul style="list-style-type: none;">
+                <li><a href="#Electronica">Electronica</a></li>
+                <li><a href="#Electrodomesticos">Electrodomesticos</a></li>
+                <li><a href="#libros">Libros</a></li>
+                <li></li>
+            </ul>
+        </aside>
+        <main>
+            <span id="Electronica">
+                Ordenadores
+                monitores
+                impresoras
+                televisores
+                tablets
+            </span>
+            <spam id="Electrodomesticos">
+                frigoríficos
+                microondas
+                tostadoras
+                freidoras
+            </spam>
+            <span id="libros">
+                libros de cocina
+                novelas
+                cómics
+            </span>
+            
+    </main>
+    <footer>
 
+    </footer>
     </body>
 
 </html>
